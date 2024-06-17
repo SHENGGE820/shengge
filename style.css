@@ -1,0 +1,705 @@
+.header{
+    background-color: black;
+    border-bottom: 7px solid orange;
+    height: 131px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+h1{
+    color: aliceblue ;
+
+}
+h2{
+    font-family: "Noto Serif HK", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin-left: 50px;
+}
+.man{
+    font-size: 40px;
+    font-family: "Noto Serif HK", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin-left: 50px;
+}
+body{
+    margin: 0 ;
+    width: 900px;
+
+}
+.select li{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+.textin li{
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    margin-left: 50px;
+    font-family: "Noto Serif HK", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+.select{
+    text-align: center;
+    font-size: 50px;
+    height: 80px;
+    background-color: rgb(117, 117, 117,0.5);
+  
+    
+}
+.selectin{
+    margin-left: 850px;
+}
+.box{
+    background-color: rgb(85, 85, 85,0.7);
+    width: 150px;
+    height: 120px;
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    z-index: 1;
+}
+.select li:hover .box{
+    display: block;
+    
+}
+.contener{
+    min-height: 500px;
+    min-width: 900px;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    
+    min-width: 1200px;
+    min-height:600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color:   white;
+    margin: 0;
+   
+
+}
+.know li{
+    text-align: center;
+}
+img{
+    float: right;
+    
+}
+.top{
+    margin-top: 50px;
+    margin: 0;
+
+}
+h2{
+    font-size: 40px;
+}
+.mid p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.mid{
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    
+   opacity: 0.8;
+}
+.top{
+    position: relative;
+    height: 600px;
+    min-width: 1920px;
+    min-height: 900px;
+}
+.text{
+    position: absolute;
+}
+.top h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.img2{
+    display: flex;
+    margin: 0 auto;
+    float: right;
+    margin-top: 150px;
+}
+.textin{
+    float: left;
+}
+    
+.text{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1500px;
+    height: 800px;
+    margin-right: 150px ;
+    margin-left: 150px;
+    margin-top: 75px;
+
+ }
+ hr{
+    width: 700px;
+    
+ }
+ p{
+    color: aliceblue;
+ }
+ h3{
+   color: white; 
+   margin-left: 50px;
+
+ }
+
+ .img3{
+    float: left;
+ }
+.contener{
+    background-color: white;
+    min-height: 1080px;
+    min-width: 1920px;
+}
+.mid p {
+    font-size: 20px;
+    color: black;
+}
+.mid h2{
+    font-size: 40px;
+    color: rgb(116, 116, 116);
+    
+}
+.text3{
+   float: right;
+   margin-top: 30px;
+   margin-left: 20px;
+   line-height: 50px;
+}
+
+.b{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 10px;
+   color: white;
+}
+.down{
+    
+    flex-direction: row;
+    display: flex;
+}
+.b1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 40px;
+}
+.b2{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 40px;
+    margin-left: 70%;
+}
+.b3{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 40px;
+    margin-right: 85%;
+    color: black;
+}
+.b4{
+    text-align: center;
+    justify-content: center;
+   
+    font-size: 40px;
+    margin-left: 85%;
+    color: black;
+}
+.b4 a{
+    color: black;
+}
+.b3 a{
+    color: black;
+}
+.word{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    font-size: 100px;
+    z-index: 1;
+   
+}
+.word2 {
+    width: 300px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: 70px;
+    
+}
+.word2 p{
+   color: antiquewhite;
+    
+}
+
+.mid2{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.text33{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 50px;
+ }
+ .mid2 p {
+    font-size: 20px;
+    color: black;
+}
+.mid2 h2{
+    font-size: 40px;
+    color: rgb(116, 116, 116);
+    
+}
+.jstext{
+    float: right;
+}
+.img33{
+    float: right;
+ }
+ .js{
+    float: left;
+ }
+ .yk{
+    float: right;
+ }
+ .aeust{
+    float: left;
+ }
+ .mid2{
+    background-color: white;
+ }
+
+
+ .midjs{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 179, 179);
+}
+
+ .midjs p {
+    font-size: 20px;
+    color: black;
+}
+.midjs h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.midyk{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+ .midyk p {
+    font-size: 20px;
+    color: black;
+}
+.midyk h2{
+    font-size: 40px;
+    color: rgb(116,116,116);
+    
+}
+
+.midaeust{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 179, 179);
+}
+
+ .midaeust p {
+    font-size: 20px;
+    color: black;
+}
+.midaeust h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+/*個人網站*/
+.c{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+    
+   
+}
+.c1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.c a{
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+/*koma*/
+
+.d{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+   margin: 0 auto;
+}
+.d1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.d a{
+    color: black;
+    font-size: 20px;
+}
+
+
+/*font*/
+
+.e{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+.e1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.e a{
+    color: black;
+    font-size: 20px;
+}
+
+/*flex*/
+.f{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+.f1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+ 
+    font-size: 40px;
+    
+}
+.f a{
+    color: black;
+    font-size: 20px;
+}
+/*layout*/
+.g{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(110, 255, 255);
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+.g1{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  
+    font-size: 40px;
+    
+}
+.g a{
+    color: black;
+    font-size: 20px;
+}
+
+/*上面*/
+
+.left{
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ .left p {
+    font-size: 20px;
+    color: black;
+}
+.left h2{
+    font-size: 40px;
+    margin-right: 22px;
+    margin-left: 100px;
+}
+.right{
+    display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+}
+
+ .right p {
+    font-size: 20px;
+    color: black;
+}
+.right h2{
+    font-size: 40px;
+    margin-right: 15px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    
+}
+.middle2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.middle2 p{
+        font-size: 20px;
+        color: black;
+    
+}
+.middle2 h2{
+    font-size: 40px;
+    margin-right: 80px;
+    
+}
+
+.left2{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 179, 179);
+    
+}
+
+.left2 p {
+    font-size: 20px;
+    color: black;
+}
+.left2 h2{
+    font-size: 40px;
+    margin-right: 20px;
+    color: white;
+}
+.right2{
+    margin: 0 auto;
+    display: flex;
+   flex-direction: row;
+   background-color: rgb(179, 179, 179);
+   
+}
+
+ .right2 p {
+    font-size: 20px;
+    color: black;
+}
+.right2 h2{
+    font-size: 40px;
+    margin-right: 25px;
+    color: white;;
+}
+.imgs img{
+    margin: 20px;
+}
+.imgs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 2px solid rgba(23, 23, 24);
+}
+.imgs .d{
+    background-color: black;
+}
+.d1 a{
+    color: white;
+    font-size: 20px;
+}
+.imgs .e{
+    background-color: white;
+    margin: 0 auto;
+}
+.e1 a{
+    color: black;
+    font-size: 20px;
+}
+
+.imgs .f{
+    background-color:black;
+    margin: 0 auto;
+}
+.f1 a{
+    color: white;
+    font-size: 20px;
+}
+
+.imgs .g{
+    background-color:white;
+    margin: 0 auto;
+}
+.g1 a{
+    color: black;
+    font-size: 20px;
+}
+
+.imgs .c{
+    background-color:black;
+    margin: 0 auto;
+}
+.c1 a{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.imgs-c img{
+    margin: 20px;
+}
+.imgs-c{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-left: 2px solid rgba(23, 23, 24);
+    
+}
+.imgs-c h2{
+    margin-top: 20px;
+}
+.imgs-c .c{
+    background-color:rgb(7, 1, 1);
+    margin: 0 auto;
+}
+.cc{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.cc a{
+    font-size: 15px;
+    color: white;
+}
+.downtext{
+    margin-top: 100px;
+    writing-mode: vertical-lr;
+    
+}
+.downtext2{
+    margin-top: 180px;
+    writing-mode: vertical-lr;
+    
+}
+.middle22{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.middle22 p{
+        font-size: 20px;
+        color: black;
+    
+}
+.middle22 h2{
+    font-size: 40px;
+    margin-right: 20px;
+    
+}
+
+
+.imgs-d img{
+    margin: 20px;
+}
+.imgs-d{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 2px solid rgba(23, 23, 24);
+    
+}
+.imgs-d h2{
+    margin-top: 20px;
+}
+.imgs-d .c{
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+    color: black;
+}
+.imgs-d .c .cc a{
+    color: black;
+}
+.knows li {
+    font-size: 40px;
+}
+.word3 {
+    width: 300px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: 70px;
+    
+}
+.word3 p{
+   color: rgb(82, 79, 77);
+    
+}
+.b{
+   
+}
+
+
+
