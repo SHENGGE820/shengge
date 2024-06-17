@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body{
+    background-color: palevioletred;
+    background-image: url(/20240401/img/abc.jpg);   
+}
+
+/*連結顏色設定*/
+a{
+    color: crimson;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1{
+    background-color: blueviolet;
+    color: pink;
+    border: 5PX ;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+    border: 6px ridge plum;
+    text-align: center;
+}
+
+/*次標題設定*/
+h2{
+    border: 5px dotted red;
+    border-width: 2px ;
+    border-left: 4px solid pink;
+    margin: 50px;
+    text-align: center;
+    color: bisque;
+}
+
+/*小標題設定*/
+
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+
+
+/*圓形圖片設定*/
+
+

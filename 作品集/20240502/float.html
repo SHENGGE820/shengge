@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float 版面</title>
+    <style>
+        #container {
+            width: 1000px;
+            margin: auto;
+            background-color: blueviolet;
+        }
+
+        .inner {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border: 1px solid palevioletred;
+            text-align: center;
+            margin: 10px;
+        }
+        .left{
+            float: left;
+            
+        }
+        .right{
+           float: right;
+        }
+        .clear{
+            clear: both;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="inner">1</div>
+        <div class="inner  left">2</div>
+        <div class="inner  left">3</div>
+        <div class=" inner right ">2</div>
+        <div class=" inner right">3</div>
+        <div class="inner clear">4</div>
+
+</body>
+
+</html>

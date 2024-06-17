@@ -1,0 +1,32 @@
+#container{
+    width: 980px;
+    margin:0 auto;
+   background-image: url(../img/kpmg3R46Q2.jpg);
+    padding: auto ;
+
+
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.round{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+body{
+    background-image: url(../img/lovepik-starry-background-image_500543007.jpg);
+}
+h1{
+    text-shadow: 10px 10px 10px;
+    text-align: center;
+}
+h2{
+    text-shadow: 5px 5px 5px;
+    text-align: center;
+}
+.pp{
+    font-size: 50px;
+    color: aqua;
+}

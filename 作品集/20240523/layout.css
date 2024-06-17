@@ -1,0 +1,61 @@
+#mapper {
+    width: 80%;
+}
+
+header {
+    height: 200px;
+    background-color: aqua;
+}
+
+nav {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 20%;
+    
+    background-color: black;
+}
+
+section {
+    
+    width: 80%;
+    background-color: chocolate;
+}
+
+footer {
+    height: 200px;
+    background-color: palevioletred;
+}
+.img{
+    background-image: url(/1101111360513/20240509/IMG/images.jpg);
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin: 10px;
+    border-radius: 10%;
+    
+   
+}
+.box{
+    width: 98%;
+    min-height: 335px;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+figcaption{
+    font-size: 1.5em;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .inner{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 20px;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner:nth-child(odd){
+            width: 400px;
+        }
+        .outter{
+            display: flex;
+            flex-direction: row;
+            align-items: first baseline;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="outter">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+    </div>
+
+
+</body>
+</html>
